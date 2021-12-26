@@ -7,6 +7,7 @@ D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\ParkyAPI.runtimeco
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\ParkyAPI.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\ref\ParkyAPI.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\ParkyAPI.pdb
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\ParkyAPI.xml
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\AutoMapper.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Humanizer.dll
@@ -23,7 +24,11 @@ D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Microsoft.Identity
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -45,6 +50,7 @@ D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.Generated
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.AssemblyInfoInputs.cache
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.AssemblyInfo.cs
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\staticwebassets\ParkyAPI.StaticWebAssets.Manifest.cache
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\staticwebassets\ParkyAPI.StaticWebAssets.xml
@@ -55,3 +61,4 @@ D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ref\ParkyAPI.dll
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.pdb
 D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.genruntimeconfig.cache
+D:\Projects\dotnet\MyProjects\Parky\ParkyAPI\obj\Debug\net5.0\ParkyAPI.csproj.AssemblyReference.cache

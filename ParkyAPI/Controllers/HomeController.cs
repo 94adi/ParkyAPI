@@ -19,7 +19,7 @@ namespace ParkyAPI.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Ok();
         }
 
         public IActionResult Privacy()
