@@ -45,7 +45,7 @@ namespace ParkyWeb.Repository
         {
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             var client = _httpClientFactory.CreateClient();
-            var response = await client.SendAsync(request);
+            var response = client.Send(request);
             if(response.StatusCode == HttpStatusCode.OK)
             {
                 var jsonContent = await response.Content.ReadAsStringAsync();
