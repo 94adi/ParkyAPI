@@ -44,7 +44,8 @@ namespace ParkyAPI.Repository.IRepository
                 //statement about the user
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, user.Id.ToString())
+                    new Claim(ClaimTypes.Name, user.Id.ToString()),
+                    new Claim(ClaimTypes.Role, user.Role)
                 }),
                 //available for 1 day
                 Expires = DateTime.UtcNow.AddDays(1),
@@ -63,12 +64,26 @@ namespace ParkyAPI.Repository.IRepository
 
         public bool IsUniqueUser(string username)
         {
-            throw new NotImplementedException();
+            var user = _db.Users.SingleOrDefault(x => x.Username == username );
+
+            if (user == null)
+                return true;
+
+            return false;
         }
 
         public User Register(string username, string password)
         {
-            throw new NotImplementedException();
+            User user = new User();
+
+            user.Username = username;
+            user.Password = password;
+            user.Role = "Admin"; 
+
+            _db.Users.Add(user);
+            _db.SaveChanges();
+            user.Password = "";
+            return user;
         }
     }
 }
