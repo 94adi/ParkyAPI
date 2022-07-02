@@ -46,7 +46,7 @@ namespace ParkyWeb.Controllers
                 var files = HttpContext.Request.Form.Files;
                 if(files.Count > 0)
                 {
-                    byte[] picture = null;
+                    byte[]? picture = null;
                     using(var fileStream = files[0].OpenReadStream())
                     {
                         using(var memoryStream = new MemoryStream())
