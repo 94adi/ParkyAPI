@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ParkyAPI.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -24,13 +24,13 @@ namespace ParkyAPI.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return Ok();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View();
+            return Ok();
         }
     }
 }

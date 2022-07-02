@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ParkyWeb.Models;
+using ParkyWeb.Models.ViewModel;
+using ParkyWeb.Repository.IRepository;
 using System.Diagnostics;
 
 namespace ParkyWeb.Controllers
@@ -7,15 +9,26 @@ namespace ParkyWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly INationalParkRepository _npRepo;
+        private readonly ITrailRepository _trailRepo;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, 
+                              ITrailRepository trailRepo,
+                              INationalParkRepository npRepo)
         {
             _logger = logger;
+            _trailRepo = trailRepo;
+            _npRepo = npRepo;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            IndexVM indexVM = new IndexVM();
+
+            indexVM.NationalParkList = await _npRepo.GetAllAsync(StaticDetails.NationalParkAPIPath);
+            indexVM.TrailList = await _trailRepo.GetAllAsync(StaticDetails.TrialAPIPath);
+
+            return View(indexVM);
         }
 
         public IActionResult Privacy()
